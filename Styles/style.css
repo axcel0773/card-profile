@@ -1,0 +1,71 @@
+:root {
+  --vivid-red: #f64b29;
+  --darker-grey: #1b212c;
+  --light-grey: #3c4657;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #e0e5ec;
+}
+
+main {
+  display: flex;
+  min-width: 500px;
+  margin: 1em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-width: 500px;
+  height: 500px;
+
+  border-radius: 41px;
+  background: #ebebeb;
+  box-shadow: 30px 30px 40px #c8c8c8, -15px -15px 40px #ffffff;
+}
+
+section h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--darker-grey);
+  letter-spacing: 0.1rem;
+}
+
+section p,
+section span {
+  margin-top: 2rem;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--darker-grey);
+}
+
+.social {
+  display: flex;
+}
+
+.social a {
+  padding: 1rem;
+
+}
+
+.social a:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+.profile-image {
+  width: 120px;
+  display: flex;
+  align-self: center;
+  border-radius: 15px;
+}
